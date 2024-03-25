@@ -1,0 +1,57 @@
+fps_max 281
+
+cl_mute_enemy_team 0
+
+bind "ALT" "slot5"
+bind "3" "slot3; +lookatweapon; -lookatweapon"
+bind "i" toggle cl_hud_color 1 2 3 4 5 6 7
+bind "l" toggle cl_mute_enemy_team 0 1
+
+viewmodel_offset_x -50
+viewmodel_fov 70
+
+//RATES and  HUD
+rate "786432"
+cl_hud_color "5"	
+cl_autohelp "1"
+sensitivity "0.76"
+
+cl_crosshairalpha "180"
+cl_crosshaircolor "5"
+cl_crosshaircolor_b "0"
+cl_crosshaircolor_r "255"
+cl_crosshaircolor_g "0"
+cl_crosshairdot "0"
+cl_crosshairgap "-7"
+cl_crosshairsize "0.5"
+cl_crosshairstyle "3"
+cl_crosshairusealpha "1"
+cl_crosshairthickness "0.5"
+cl_fixedcrosshairgap "-4"
+cl_crosshair_outlinethickness "1"
+cl_crosshair_drawoutline "0"
+
+
+cl_hud_color "5"
+cl_radar_always_centered "0"
+
+snd_mixahead "0.05"
+snd_headphone_pan_exponent "2"
+snd_musicvolume "0"
+
+bind "p" "toggleconsole"
+
+// OTHER
+bind "ALT" "slot5"
+bind "f" "slot7"
+bind "Q" "slot3; lastinv"
+
+bind "MOUSE3" "player_ping"
+bind "MOUSE4" "slot8"
+bind "MOUSE5" "slot10"
+
+bind "p" "toggleconsole"
+
+echo " ... ...  ... ..."
+echo " Counter Strike 2"
+echo "... ... ... ... ..."
